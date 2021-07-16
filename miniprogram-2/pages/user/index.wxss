@@ -1,0 +1,135 @@
+page{
+    background-color: #ccc;   
+}
+.user_info_wrap {
+    height: 45vh;
+    background-color: var(--themeColor);
+    overflow: hidden;
+    position: relative;
+}
+
+.user_img_wrap {
+    position: relative;
+}
+
+.user_btn {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 40%;
+    border: 1rpx solid green;
+    color: green;
+    padding: 30rpx;
+    border-radius: 10rpx;
+}
+
+.user_bg {
+    height: 50vh;
+    filter: blur(10rpx);
+
+}
+
+.user_info {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 20%;
+    text-align: center;
+}
+
+.user_icon {
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+}
+
+.user_name {
+    color: #fff;
+    margin-top: 40rpx;
+    font-size: 40rpx;
+
+}
+
+.user_content {
+    position: relative;
+}
+
+.user_main {
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%);
+    top: -40rpx;
+    color: #666;
+    padding-bottom: 100rpx;
+}
+
+.history_wrap {
+    background-color: #fff;
+    display: flex;
+}
+
+.history_wrap navigator {
+    flex: 1;
+    text-align: center;
+    padding: 10rpx 0;
+}
+
+.his_num {
+    /*flex:1;*/
+    color: var(--themeColor);
+}
+
+.his_name {
+    /*flex:1;*/
+}
+
+.order_wrap {
+    background-color: #fff;
+    margin-top: 30rpx;
+}
+
+.orders_title {
+    padding: 20rpx;
+    border-bottom: 1rpx solid #ccc;
+}
+
+.order_content {
+    display: flex;
+}
+
+.order_content navigator {
+    flex: 1;
+    text-align: center;
+    padding: 15rpx 0;
+}
+
+.order_content navigator .iconfont {
+    color: var(--themeColor);
+    font-size: 40rpx;
+}
+
+.address_wrap{
+    margin-top: 30rpx;
+    background-color: #fff;
+    padding: 20rpx;
+
+}
+.app_info_wrap{
+    margin-top: 30rpx;
+    background-color: #fff;
+    padding: 20rpx;
+}
+.app_info_item{
+    padding: 20rpx;
+    border-bottom: 1rpx solid #ccc;
+}
+.recommend_wrap{
+    margin-top: 30rpx;
+    background-color: #fff;
+    padding: 20rpx;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}

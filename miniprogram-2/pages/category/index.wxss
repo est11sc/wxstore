@@ -1,0 +1,60 @@
+/* pages/category/index.wxss */
+page{
+    height: 100%;
+}
+.cates{
+    height: 100%;
+}
+/*需要注意的是，运算符前后都需要保留一个空格。calc()函数支持 "+", "-", "*", "/" 运算；*/
+.cates_container{
+    height:calc(100vh - 90rpx);
+    display: flex;
+}
+.left_menu{
+    flex: 2;
+    /*height: 500rpx;*/
+}
+.menu_item{
+    height: 80rpx;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 30rpx;
+
+}
+.active{
+    color: var(--themeColor);
+    border-left: 5px solid currentColor;
+
+}
+.right_menu{
+    flex: 5;
+    /*height: 500rpx;*/
+}
+.goods_group{
+
+}
+.goods_title{
+    height: 80rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.goods_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.goods_list navigator{
+    width: 33.33%;
+    text-align: center;
+}
+.goods_list image{
+    width: 100%;
+}
+.goods_name{
+
+}
+.delimiter{
+    color: #ccc;
+    padding: 0 10rpx;
+}
